@@ -28,6 +28,8 @@ body {
     position: relative;
     z-index: -1;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .rowHomepage {
@@ -94,6 +96,8 @@ body {
     #projects {
         background-color: #e6e6e6;
         height: 580px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -120,6 +124,8 @@ body {
     #projects {
         background-color: #f7f7f7;
         height: 480px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -146,6 +152,8 @@ body {
     #projects {
         background-color: #e6e6e6;
         height: 400px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -172,6 +180,8 @@ body {
     #projects {
         background-color: #e6e6e6;
         height: 400px;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -183,6 +193,8 @@ body {
     color: #e6e6e6;
     background-color: #1c1b1b;
     height: 450px;
+    margin: 0;
+    padding: 0;
 }
 
 .Hithisisme {
@@ -231,6 +243,8 @@ paragraph3 {
     color: #e6e6e6;
     background-color: #1c1b1b;
     height: 400px;
+    margin: 0;
+    padding: 0;
 }
 
 .listcontainer {
