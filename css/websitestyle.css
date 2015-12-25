@@ -36,12 +36,14 @@ body {
     position: relative;
     top: 150px;
     width: 100%;
+    margin: 0;
 }
 
 .rowfirstline {
     position: relative;
     top: 40px;
     width: 100%;
+    margin: 0;
 }
 
 .coloumn_onHomePage {
