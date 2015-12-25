@@ -1,0 +1,284 @@
+body {
+    position: relative;
+}
+
+#faceLogo {
+    height: 50px;
+    margin-top: -15px;
+}
+
+.nav.navbar-nav.pull-right li a {
+    color: #262626;
+    font-size: 15px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: #262626;
+}
+
+
+/* first page */
+
+#home {
+    font-family: 'Gentium Book Basic', serif;
+    color: #1f1f1f;
+    background-color: #e6e6e6;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+.rowHomepage {
+    position: relative;
+    top: 150px;
+}
+
+.rowfirstline {
+    position: relative;
+    top: 40px;
+}
+
+.coloumn_onHomePage {
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    /* This query is used for very small screens  */
+    #rectangle_BG {
+        position: absolute;
+        left: 50%;
+        border: 2px solid white;
+        transform: translate(-50%, 0%);
+        width: 350px;
+        height: 94px;
+        background-color: white;
+        z-index: -1;
+        opacity: 0.7;
+        border-radius: 15px;
+    }
+    #myName {
+        font-size: 50px;
+    }
+    #description {
+        font-size: 20px;
+    }
+    #about {
+        font-family: 'Gentium Book Basic', serif;
+        color: #e6e6e6;
+        background-color: #1c1b1b;
+        height: 550px;
+    }
+    .Hithisisme {
+        font-size: 50px;
+    }
+    .aboutmeParagraph {
+        font-size: 20px;
+    }
+    #paragraph1 {
+        padding-top: 15px;
+    }
+    paragraph2 {
+        padding-top: 15px;
+    }
+    paragraph3 {
+        padding-top: 15px;
+    }
+    #myfacepic {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    #projects {
+        background-color: #e6e6e6;
+        height: 580px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* This query is used for small screens  */
+    #rectangle_BG {
+        position: absolute;
+        left: 50%;
+        border: 2px solid white;
+        transform: translate(-50%, 0%);
+        width: 400px;
+        height: 100px;
+        background-color: white;
+        z-index: -1;
+        opacity: 0.7;
+        border-radius: 15px;
+    }
+    #myName {
+        font-size: 60px;
+    }
+    #description {
+        font-size: 30px;
+    }
+    #projects {
+        background-color: #f7f7f7;
+        height: 480px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    /* This query is used for medium screens  */
+    #rectangle_BG {
+        position: absolute;
+        left: 50%;
+        border: 2px solid white;
+        transform: translate(-50%, 0%);
+        width: 500px;
+        height: 111px;
+        background-color: white;
+        z-index: -1;
+        opacity: 0.7;
+        border-radius: 15px;
+    }
+    #myName {
+        font-size: 60px;
+    }
+    #description {
+        font-size: 30px;
+    }
+    #projects {
+        background-color: #e6e6e6;
+        height: 400px;
+    }
+}
+
+@media (min-width: 980px) {
+    /* This query is used for large screens  */
+    #rectangle_BG {
+        position: absolute;
+        left: 50%;
+        border: 2px solid white;
+        transform: translate(-50%, 0%);
+        width: 600px;
+        height: 122px;
+        background-color: white;
+        z-index: -1;
+        opacity: 0.7;
+        border-radius: 15px;
+    }
+    #myName {
+        font-size: 60px;
+    }
+    #description {
+        font-size: 30px;
+    }
+    #projects {
+        background-color: #e6e6e6;
+        height: 400px;
+    }
+}
+
+
+/* css for about section */
+
+#about {
+    font-family: 'Gentium Book Basic', serif;
+    color: #e6e6e6;
+    background-color: #1c1b1b;
+    height: 450px;
+}
+
+.Hithisisme {
+    font-size: 50px;
+}
+
+.aboutmeParagraph {
+    font-size: 20px;
+}
+
+#paragraph1 {
+    padding-top: 20px;
+}
+
+paragraph2 {
+    padding-top: 20px;
+}
+
+paragraph3 {
+    padding-top: 20px;
+}
+
+#myfacepic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#love {
+    height: 15px;
+    width: 15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+#timeline-projects {
+    font-family: 'Gentium Book Basic', serif;
+    margin-top: 40px;
+}
+
+#contacts {
+    font-family: 'Gentium Book Basic', serif;
+    color: #e6e6e6;
+    background-color: #1c1b1b;
+    height: 400px;
+}
+
+.listcontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.liststyle {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 20px;
+    list-style-type: none;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.nolink {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+#phonelist {
+    background-image: url("../images/phoneShape.png");
+    background-repeat: no-repeat;
+}
+
+#maillist {
+    background-image: url("../images/mailshape.png");
+    background-repeat: no-repeat;
+}
+
+li {
+    margin-top: 30px;
+    height: 33px
+}
+
+#githublist {
+    background-image: url("../images/Octocat.png");
+    background-repeat: no-repeat;
+}
+
+#facebooklist {
+    background-image: url("../images/facebook-2-32.png");
+    background-repeat: no-repeat;
+}
+
+.main {
+    z-index: 1;
+}
