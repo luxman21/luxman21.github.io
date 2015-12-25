@@ -35,11 +35,13 @@ body {
 .rowHomepage {
     position: relative;
     top: 150px;
+    width: 100%;
 }
 
 .rowfirstline {
     position: relative;
     top: 40px;
+    width: 100%;
 }
 
 .coloumn_onHomePage {
